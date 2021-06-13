@@ -6,9 +6,13 @@ verify_ssl = true
 [dev-packages]
 flake8 = "*"
 autopep8 = "*"
+grpcio-tools = "*"
+pytest = "*"
+pytest-asyncio = "*"
 
 [packages]
 grpcio = "*"
+pytest-timeout = "*"
 
 [requires]
 python_version = "3.8"

@@ -1,0 +1,988 @@
+[16:26:06] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
+[16:26:06] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
+[16:26:06] [main/INFO] [ne.mi.co.Co.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[16:26:06] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
+[16:26:06] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
+[16:26:07] [main/INFO] [FerriteCore - class definer/]: Using Java 9+ class definer
+[16:26:08] [main/INFO] [ne.mi.co.Co.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[16:26:08] [main/INFO] [ne.mi.co.Co.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[16:26:08] [main/INFO] [ne.mi.co.Co.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[16:26:12] [main/INFO] [ne.mi.co.Co.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[16:26:12] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
+[16:26:12] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
+[16:26:12] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
+[16:26:12] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
+[16:26:17] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'cooldown_tracker_set' ASM patch...
+[16:26:17] [main/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'cooldown_tracker_set' ASM patch!
+[16:26:23] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:23] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:25] [main/INFO] [PluginManager/]: Scanning classes for titanium
+[16:26:25] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class IndustrialForegoingResourcePlugin for plugin resources
+[16:26:25] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
+[16:26:25] [modloading-worker-12/WARN] [ReAuth/]: #########################################
+[16:26:25] [modloading-worker-12/WARN] [ReAuth/]: #      ReAuth was loaded on Server      #
+[16:26:25] [modloading-worker-12/WARN] [ReAuth/]: # Consider removing it to save some RAM #
+[16:26:25] [modloading-worker-12/WARN] [ReAuth/]: #########################################
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Found FeaturePluginInstance for class ImmersiveEngineeringPlugin for plugin immersiveengineering
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Found FeaturePluginInstance for class FarmersDelightPlugin for plugin farmersdelight
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Found FeaturePluginInstance for class AstralSorceryPlugin for plugin astralsorcery
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Constructed class ImmersiveEngineeringPlugin for plugin immersiveengineering for mod industrialforegoing
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Constructed class FarmersDelightPlugin for plugin farmersdelight for mod industrialforegoing
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Constructed class AstralSorceryPlugin for plugin astralsorcery for mod industrialforegoing
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class ImmersiveEngineeringPlugin
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class FarmersDelightPlugin
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class AstralSorceryPlugin
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class ImmersiveEngineeringPlugin
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class FarmersDelightPlugin
+[16:26:26] [modloading-worker-9/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class AstralSorceryPlugin
+[16:26:26] [modloading-worker-4/INFO] [PluginManager/]: Scanning classes for portality
+[16:26:27] [modloading-worker-13/INFO] [ne.mi.co.Co.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[16:26:27] [modloading-worker-12/WARN] [Simple Discord Rich Presence/]: This is a client only mod!
+[16:26:27] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: InfuserSetup: register
+[16:26:27] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: SqueezerSetup: register
+[16:26:27] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: OracleSetup: register
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: FactorySetup: register
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: LayoutSetup: register
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: AnvilSetup: register
+[16:26:28] [modloading-worker-2/INFO] [co.re.re.ap.API/]: Found 2 RS API injection points
+[16:26:28] [modloading-worker-2/INFO] [co.re.re.ap.API/]: Injected RS API in org.cyclops.integrateddynamicscompat.modcompat.refinedstorage.aspect.RefinedStorageAspects RS
+[16:26:28] [modloading-worker-2/INFO] [co.re.re.ap.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: FluidSetup: register
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: ToolsSetup: register
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: DebugSetup: register
+[16:26:28] [modloading-worker-10/INFO] [ne.mi.co.Co.placebo/COREMODLOG]: Patching LootTableManager#apply
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: GenericSetup: register
+[16:26:28] [modloading-worker-6/INFO] [ip.wo.se.ModSetup/]: FluidConvertor: register
+[16:26:29] [modloading-worker-6/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[16:26:29] [modloading-worker-13/ERROR] [me.ic.mo.di.co.Ding/]: You are loading Ding on a server. Ding is a client only mod!
+[16:26:29] [modloading-worker-10/INFO] [co.by.BYG/]: Loading config: /home/linux-box/code/discord-mc/server/server/server/config/byg/byg-world.toml
+[16:26:30] [modloading-worker-12/INFO] [wi.rs.ModRsGauges/]: Gauges and Switches GIT id #c731ba0.
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase INIT for plugin class ImmersiveEngineeringPlugin
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase INIT for plugin class FarmersDelightPlugin
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase INIT for plugin class AstralSorceryPlugin
+[16:26:31] [modloading-worker-12/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.16, for MC 1.16.5 with MCP 20210115.111550
+[16:26:31] [modloading-worker-12/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v36.1.16 Initialized
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class ImmersiveEngineeringPlugin
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class FarmersDelightPlugin
+[16:26:31] [modloading-worker-9/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class AstralSorceryPlugin
+[16:26:32] [modloading-worker-10/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_enchantment_condition' ASM patch...
+[16:26:32] [modloading-worker-10/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_enchantment_condition' ASM patch!
+[16:26:32] [modloading-worker-1/INFO] [xy.br.po.re.re.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[16:26:33] [modloading-worker-12/INFO] [chocolate/]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[16:26:34] [modloading-worker-11/WARN] [ne.mi.se.pe.PermissionAPI/]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.feed_the_beast.mods.ftbranks.impl.PermissionAPIWrapper
+[16:26:34] [modloading-worker-12/INFO] [mo.pi.bl.BlockCarpentryMain/]: Registering all blocks and items from BlockCarpentry
+[16:26:35] [modloading-worker-12/INFO] [mo.pi.bl.se.Registration/]: Registering blocks from BlockCarpentry
+[16:26:35] [modloading-worker-12/INFO] [mo.pi.bl.se.Registration/]: Registering items from BlockCarpentry
+[16:26:35] [modloading-worker-12/INFO] [mo.pi.bl.se.Registration/]: Registering tiles from BlockCarpentry
+[16:26:35] [modloading-worker-12/INFO] [mo.pi.bl.se.Registration/]: Registering containers from BlockCarpentry
+[16:26:35] [modloading-worker-12/INFO] [mo.pi.bl.se.Registration/]: Registering points of interest from Blockcarpentry
+[16:26:35] [modloading-worker-12/INFO] [mo.pi.bl.BlockCarpentryMain/]: Registered all blocks and items from BlockCarpentry
+[16:26:36] [modloading-worker-10/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'cooldown_tracker_set' ASM patch...
+[16:26:36] [modloading-worker-10/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'cooldown_tracker_set' ASM patch!
+[16:26:36] [modloading-worker-15/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'post_process_vanilla' ASM patch...
+[16:26:37] [modloading-worker-15/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'post_process_vanilla' ASM patch!
+[16:26:37] [modloading-worker-2/INFO] [pneumaticcraft/]: Thirdparty integration activated for [botania,theoneprobe,mekanism,cofh_core,immersiveengineering,curios,patchouli,computercraft,appliedenergistics2,jei]
+[16:26:37] [modloading-worker-15/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[16:26:38] [modloading-worker-15/INFO] [KubeJS/]: Found kubejs plugin
+[16:26:38] [modloading-worker-10/ERROR] [me.ic.mo.go.co.GooglyEyes/]: You are loading Googly Eyes on a server. Googly Eyes is a client only mod!
+[16:26:38] [modloading-worker-15/INFO] [KubeJS/]: Done in 0 s
+[16:26:38] [modloading-worker-11/INFO] [co.si.cr.re.re.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[16:26:38] [modloading-worker-10/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.2.4...
+[16:26:38] [modloading-worker-15/INFO] [KubeJS/]: Loaded common.properties
+[16:26:39] [modloading-worker-10/INFO] [Dungeon Crawl/]: net.minecraft.world.gen.feature.StructureFeature@1edf88b5
+[16:26:39] [modloading-worker-10/INFO] [Dungeon Crawl/]: dungeoncrawl:dungeon
+[16:26:40] [modloading-worker-2/ERROR] [toastcontrol/]: Running on a dedicated server, disabling mod.
+[16:26:40] [modloading-worker-3/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_player_field' ASM patch...
+[16:26:40] [modloading-worker-3/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_player_field' ASM patch!
+[16:26:40] [modloading-worker-9/ERROR] [me.ic.mo.pa.co.PartyParrots/]: You are loading Party Parrots on a server. Party Parrots is a client only mod!
+[16:26:41] [modloading-worker-12/INFO] [PluginManager/]: Scanning classes for titanium
+[16:26:41] [modloading-worker-12/INFO] [PluginManager/]: Constructed class IndustrialForegoingResourcePlugin for plugin resources for mod titanium
+[16:26:41] [modloading-worker-12/INFO] [PluginManager/]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
+[16:26:41] [modloading-worker-12/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class IndustrialForegoingResourcePlugin
+[16:26:41] [modloading-worker-12/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
+[16:26:41] [modloading-worker-4/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[16:26:41] [modloading-worker-4/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[16:26:41] [modloading-worker-4/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'allow_entity_interaction' ASM patch...
+[16:26:42] [modloading-worker-4/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'allow_entity_interaction' ASM patch!
+[16:26:42] [modloading-worker-6/INFO] [co._i.to.TowersOfTheWild/]: tower structure registered
+[16:26:42] [modloading-worker-6/INFO] [co._i.to.TowersOfTheWild/]: ice_tower structure registered
+[16:26:42] [modloading-worker-6/INFO] [co._i.to.TowersOfTheWild/]: jungle_tower structure registered
+[16:26:42] [modloading-worker-6/INFO] [co._i.to.TowersOfTheWild/]: derelict_tower structure registered
+[16:26:42] [modloading-worker-6/INFO] [co._i.to.TowersOfTheWild/]: derelict_grass_tower structure registered
+[16:26:42] [modloading-worker-6/INFO] [co._i.to.TowersOfTheWild/]: ocean_tower structure registered
+[16:26:42] [modloading-worker-6/INFO] [co._i.to.TowersOfTheWild/]: ocean_warm_tower structure registered
+[16:26:43] [modloading-worker-6/INFO] [xy.br.tr.re.re.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[16:26:43] [modloading-worker-13/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[16:26:43] [modloading-worker-13/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[16:26:45] [modloading-worker-9/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:69]: # schematics: 5
+[16:26:45] [modloading-worker-15/INFO] [KubeJS Startup/]: Loaded script startup_scripts:script.js in 1.24 s
+[16:26:45] [modloading-worker-15/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 3.748 s
+[16:26:49] [main/INFO] [ip.wo.se.ModSetup/]: registerBlocks
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `air_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `agricarnation`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `altar_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `arcane_rose_disenchant`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `babylon_attack`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `babylon_spawn`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `bellows`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `bifrost_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `black_lotus`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `dash`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `ding`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `diva_charm`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `divination_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `doit`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `enchanter_fade`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `enchanter_form`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `enchanter_enchant`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `endoflame`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `equip_bauble`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `gaia_trap`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `holy_cloak`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `labelia`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `laputa_start`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `lexicon_open`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `lexicon_page`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `light_relay`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `mana_blaster`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `mana_pool_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `missile`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `orechid`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `potion_create`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `rune_altar_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `rune_altar_start`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `spreader_fire`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `starcaller`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terrablade`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terraform_rod`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terra_pick_mode`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `terrasteel_craft`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `thermalily`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `unholy_cloak`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `way`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `music.gaia1`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:49] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `botania` for name `music.gaia2`, expected `mythicbotany`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:50] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:50] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:50] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blast_furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:50] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blast_furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:50] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `smoker`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:50] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `smoker`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:50] [main/INFO] [co.by.BYG/]: BYG: Blocks registered!
+[16:26:50] [main/INFO] [wi.rs.ModRsGauges/]: Registered 94 blocks.
+[16:26:50] [main/INFO] [Dark Utilities/]: Registered 45 Block entries in 1.63ms.
+[16:26:50] [main/INFO] [Botany Pots/]: Registered 34 Block entries in 1.07ms.
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:acacia_log} used for map color net.minecraft.block.AbstractBlock$Properties@6cb2b3a0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:birch_log} used for map color net.minecraft.block.AbstractBlock$Properties@1c882367
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:dark_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@2939edca
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:jungle_log} used for map color net.minecraft.block.AbstractBlock$Properties@24b34cd4
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@3310d692
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:spruce_log} used for map color net.minecraft.block.AbstractBlock$Properties@3bced4fc
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_nether_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@671ee6b9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:crimson_stem} used for map color net.minecraft.block.AbstractBlock$Properties@103b1cf
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@2e9e029c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@71dc83a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_block} used for map color net.minecraft.block.AbstractBlock$Properties@e28c93f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:end_stone} used for map color net.minecraft.block.AbstractBlock$Properties@1274b26d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:netherrack} used for map color net.minecraft.block.AbstractBlock$Properties@662f7a5e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:snow_block} used for map color net.minecraft.block.AbstractBlock$Properties@60f4131
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cracked_stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@25b35da7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:coarse_dirt} used for map color net.minecraft.block.AbstractBlock$Properties@200438bc
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@455fa8ad
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:basalt} used for map color net.minecraft.block.AbstractBlock$Properties@1732d5dc
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:polished_basalt} used for map color net.minecraft.block.AbstractBlock$Properties@2d0b0b0e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:crying_obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@13692a92
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lodestone} used for map color net.minecraft.block.AbstractBlock$Properties@6f11ab4f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@17772b47
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magma_block} used for map color net.minecraft.block.AbstractBlock$Properties@4768c24c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:glowstone} used for map color net.minecraft.block.AbstractBlock$Properties@2bae8831
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:sea_lantern} used for map color net.minecraft.block.AbstractBlock$Properties@11886083
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@41133cf
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@1e40b8a8
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@387742a9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@3768bfaf
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@221885c3
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@204308f6
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@71404c3a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@1e16ad59
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@2e67d1f0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@71e2bcf8
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@5c344a24
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@4cf0d4bd
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@2af110a3
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@736b40f3
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@7223f43b
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@7ef53d8f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_wool} used for map color net.minecraft.block.AbstractBlock$Properties@7bdf401e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_wool} used for map color net.minecraft.block.AbstractBlock$Properties@4de18029
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_wool} used for map color net.minecraft.block.AbstractBlock$Properties@5b2ed865
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_wool} used for map color net.minecraft.block.AbstractBlock$Properties@663f1de1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_wool} used for map color net.minecraft.block.AbstractBlock$Properties@2d93b5a9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_wool} used for map color net.minecraft.block.AbstractBlock$Properties@5bf3c833
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_wool} used for map color net.minecraft.block.AbstractBlock$Properties@426a9726
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_wool} used for map color net.minecraft.block.AbstractBlock$Properties@7bd07831
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_wool} used for map color net.minecraft.block.AbstractBlock$Properties@27550035
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_wool} used for map color net.minecraft.block.AbstractBlock$Properties@70b091f1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_wool} used for map color net.minecraft.block.AbstractBlock$Properties@7748647
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_wool} used for map color net.minecraft.block.AbstractBlock$Properties@2ca662ac
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_wool} used for map color net.minecraft.block.AbstractBlock$Properties@13e7fcbd
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_wool} used for map color net.minecraft.block.AbstractBlock$Properties@454c69c8
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_wool} used for map color net.minecraft.block.AbstractBlock$Properties@7fe34317
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_wool} used for map color net.minecraft.block.AbstractBlock$Properties@64363738
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@5723f0a4
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@17235d9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@6cb8a5d8
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@28d1e9b7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@661de2
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@7ad6a522
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@5a465d7c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@3bc5bfe1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@42ec4ab5
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@1a4a8f0d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@65a8ea67
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@467f77bd
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@4796324c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@470c2385
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@71e81c47
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@60d778e3
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@3a76e48
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:glass} used for map color net.minecraft.block.AbstractBlock$Properties@6d1d3b46
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2b86550e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@69dbe53e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@11811962
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@242d5378
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@49d796f5
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2fe89f04
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@6ef18877
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@62a61f3c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@3f2f4cc1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@48d3660e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@62d01e68
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@45961272
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@3b9819ed
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@5d9ea603
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@e9b140f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@37aab14f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:mushroom_stem} used for map color net.minecraft.block.AbstractBlock$Properties@c30e657
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_mushroom} used for map color net.minecraft.block.AbstractBlock$Properties@597b69da
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_mushroom} used for map color net.minecraft.block.AbstractBlock$Properties@670bf97e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:mushroom_stem} used for map color net.minecraft.block.AbstractBlock$Properties@31ae6a9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:coarse_dirt} used for map color net.minecraft.block.AbstractBlock$Properties@2ed53558
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:smooth_stone} used for map color net.minecraft.block.AbstractBlock$Properties@6ed2dbc1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:end_stone} used for map color net.minecraft.block.AbstractBlock$Properties@16976ab7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cracked_stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@37349d4d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:netherrack} used for map color net.minecraft.block.AbstractBlock$Properties@5ab97a7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:snow_block} used for map color net.minecraft.block.AbstractBlock$Properties@383c88cc
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@43e661c6
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@eb1a855
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:basalt} used for map color net.minecraft.block.AbstractBlock$Properties@38d5c1a7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:polished_basalt} used for map color net.minecraft.block.AbstractBlock$Properties@293ec07a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:crying_obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@52c9528e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lodestone} used for map color net.minecraft.block.AbstractBlock$Properties@4ef1bcdd
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magma_block} used for map color net.minecraft.block.AbstractBlock$Properties@59da1656
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:glowstone} used for map color net.minecraft.block.AbstractBlock$Properties@203bf77d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:sea_lantern} used for map color net.minecraft.block.AbstractBlock$Properties@3b668a1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@7432b387
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@5248530b
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@58491884
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@299a4adb
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@5d5be303
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@7fd6404d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@3e65580b
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@36b43198
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@7b93cb87
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@5c60cba7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@64996fb9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@7dcc0e68
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@56d0b5a1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@26396269
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@ad1c164
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_concrete} used for map color net.minecraft.block.AbstractBlock$Properties@11a1c352
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_wool} used for map color net.minecraft.block.AbstractBlock$Properties@2588bf06
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_wool} used for map color net.minecraft.block.AbstractBlock$Properties@30066ebf
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_wool} used for map color net.minecraft.block.AbstractBlock$Properties@30eda2ec
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_wool} used for map color net.minecraft.block.AbstractBlock$Properties@6ce52f82
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_wool} used for map color net.minecraft.block.AbstractBlock$Properties@3a1cf032
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_wool} used for map color net.minecraft.block.AbstractBlock$Properties@19f7334e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_wool} used for map color net.minecraft.block.AbstractBlock$Properties@660c9e9b
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_wool} used for map color net.minecraft.block.AbstractBlock$Properties@7bf79451
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_wool} used for map color net.minecraft.block.AbstractBlock$Properties@6e89aeb6
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_wool} used for map color net.minecraft.block.AbstractBlock$Properties@5de09898
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_wool} used for map color net.minecraft.block.AbstractBlock$Properties@340534c5
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_wool} used for map color net.minecraft.block.AbstractBlock$Properties@3b57f950
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_wool} used for map color net.minecraft.block.AbstractBlock$Properties@7edfc879
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_wool} used for map color net.minecraft.block.AbstractBlock$Properties@620eece2
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_wool} used for map color net.minecraft.block.AbstractBlock$Properties@71cc876d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_wool} used for map color net.minecraft.block.AbstractBlock$Properties@1011bc17
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@55865a3d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@228ff195
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@2fbbc5ab
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@68347dec
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@3f145789
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@433df7c1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@1c995a28
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@76446a89
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@2309851e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@35d13574
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@39109cf1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@e1bf6ae
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@539413d8
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@a805058
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@3046a979
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@332fa004
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_glazed_terracotta} used for map color net.minecraft.block.AbstractBlock$Properties@34f7a3b8
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:glass} used for map color net.minecraft.block.AbstractBlock$Properties@2e01edc0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@75f7ec0a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@7f5dcb1f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@443ff566
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@103dc54a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@72aab2ac
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@53115e6e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2f2fbf18
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@42f009a0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@971d435
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@4883da52
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@3dde0575
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2dd300cd
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@4371b730
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2b313f30
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@12631b01
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@674fefe4
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_mushroom_block} used for map color net.minecraft.block.AbstractBlock$Properties@9aa02de
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_mushroom_block} used for map color net.minecraft.block.AbstractBlock$Properties@2886f744
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:mushroom_stem} used for map color net.minecraft.block.AbstractBlock$Properties@1cccf5b2
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:mushroom_stem} used for map color net.minecraft.block.AbstractBlock$Properties@1ae565fe
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@6a230dd2
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@3ecf299
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@259f63b
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@a5b3f2
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@43685d48
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@32ddcd48
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:acacia_log} used for map color net.minecraft.block.AbstractBlock$Properties@2993cbef
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:birch_log} used for map color net.minecraft.block.AbstractBlock$Properties@109ef338
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:dark_oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@656b3220
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:jungle_log} used for map color net.minecraft.block.AbstractBlock$Properties@2af4ebec
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:oak_log} used for map color net.minecraft.block.AbstractBlock$Properties@62b1038e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:spruce_log} used for map color net.minecraft.block.AbstractBlock$Properties@2d79df3d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:andesite} used for map color net.minecraft.block.AbstractBlock$Properties@28416dd4
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:diorite} used for map color net.minecraft.block.AbstractBlock$Properties@15409750
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:end_stone} used for map color net.minecraft.block.AbstractBlock$Properties@1f76b4a1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_block} used for map color net.minecraft.block.AbstractBlock$Properties@6ce31772
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purpur_block} used for map color net.minecraft.block.AbstractBlock$Properties@55a5662c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_block} used for map color net.minecraft.block.AbstractBlock$Properties@25a2e158
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_sandstone} used for map color net.minecraft.block.AbstractBlock$Properties@61dd6389
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:sandstone} used for map color net.minecraft.block.AbstractBlock$Properties@4c459b36
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone} used for map color net.minecraft.block.AbstractBlock$Properties@590a0e8c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone} used for map color net.minecraft.block.AbstractBlock$Properties@6b668498
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@77931829
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@199adccc
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@300526ce
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:prismarine} used for map color net.minecraft.block.AbstractBlock$Properties@6c342c98
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:dark_prismarine} used for map color net.minecraft.block.AbstractBlock$Properties@1c55ef24
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:crimson_stem} used for map color net.minecraft.block.AbstractBlock$Properties@615a02da
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:warped_stem} used for map color net.minecraft.block.AbstractBlock$Properties@23e215e3
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:crying_obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@48d7c36f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:basalt} used for map color net.minecraft.block.AbstractBlock$Properties@2a0286f8
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:polished_basalt} used for map color net.minecraft.block.AbstractBlock$Properties@24957aaf
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lodestone} used for map color net.minecraft.block.AbstractBlock$Properties@14ad204a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_crimson_hyphae} used for map color net.minecraft.block.AbstractBlock$Properties@13bbc350
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stripped_warped_hyphae} used for map color net.minecraft.block.AbstractBlock$Properties@280270be
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:mushroom_stem} used for map color net.minecraft.block.AbstractBlock$Properties@389d670a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_mushroom_block} used for map color net.minecraft.block.AbstractBlock$Properties@47fb7d42
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_mushroom_block} used for map color net.minecraft.block.AbstractBlock$Properties@1b8ebc47
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:mushroom_stem} used for map color net.minecraft.block.AbstractBlock$Properties@67b2c866
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@15dcb9ca
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magma_block} used for map color net.minecraft.block.AbstractBlock$Properties@395effb9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:glowstone} used for map color net.minecraft.block.AbstractBlock$Properties@56aa1b2d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:sea_lantern} used for map color net.minecraft.block.AbstractBlock$Properties@39b239
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:glass} used for map color net.minecraft.block.AbstractBlock$Properties@22f2c60f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:white_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2ad31d76
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:orange_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@1dcd91bb
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:magenta_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@5b8814be
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purple_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@6068e38a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:blue_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@7f89a3fc
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:brown_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@322ff23a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2447da65
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:black_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2dc6350c
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:cyan_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@2f458245
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_gray_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@65de0be2
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:gray_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@95ff051
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:pink_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@7493179f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:lime_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@1d226f1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:light_blue_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@dd38ca7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:yellow_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@29a4eed3
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:green_stained_glass} used for map color net.minecraft.block.AbstractBlock$Properties@11743caf
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:nether_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@417dadf2
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:red_nether_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@6f959758
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_block} used for map color net.minecraft.block.AbstractBlock$Properties@75170f72
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@267308ce
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:polished_blackstone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@4ab4acc0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:bricks} used for map color net.minecraft.block.AbstractBlock$Properties@36c025a0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:end_stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@131ea6a0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:obsidian} used for map color net.minecraft.block.AbstractBlock$Properties@46eb1f7e
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:prismarine} used for map color net.minecraft.block.AbstractBlock$Properties@2c999bd1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:prismarine} used for map color net.minecraft.block.AbstractBlock$Properties@3278643f
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:dark_prismarine} used for map color net.minecraft.block.AbstractBlock$Properties@2d1be98d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purpur_block} used for map color net.minecraft.block.AbstractBlock$Properties@45a96eb1
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone} used for map color net.minecraft.block.AbstractBlock$Properties@71ccb5a9
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:granite} used for map color net.minecraft.block.AbstractBlock$Properties@6e548f0a
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:andesite} used for map color net.minecraft.block.AbstractBlock$Properties@fcd5a02
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:diorite} used for map color net.minecraft.block.AbstractBlock$Properties@7d24e4da
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone} used for map color net.minecraft.block.AbstractBlock$Properties@6e4575e7
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@f823072
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@3b96867d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone_bricks} used for map color net.minecraft.block.AbstractBlock$Properties@66ad5b33
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone} used for map color net.minecraft.block.AbstractBlock$Properties@22d3ccd0
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:stone} used for map color net.minecraft.block.AbstractBlock$Properties@e1ddbce
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:purpur_block} used for map color net.minecraft.block.AbstractBlock$Properties@5ca4f88d
+[16:26:51] [main/ERROR] [co.lo.ab.ModAbsentBD/]: Block{minecraft:quartz_block} used for map color net.minecraft.block.AbstractBlock$Properties@56bb569
+[16:26:52] [main/INFO] [minecraft/Biome]: HELLO from Register Block
+[16:26:54] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:54] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:54] [main/INFO] [ip.wo.se.ModSetup/]: registerItems
+[16:26:54] [main/INFO] [co.by.BYG/]: BYG: Items registered!
+[16:26:54] [main/INFO] [wi.rs.ModRsGauges/]: Registered 1 items.
+[16:26:54] [main/INFO] [Dark Utilities/]: Registered 53 Item entries in 1.24ms.
+[16:26:54] [main/INFO] [Botany Pots/]: Registered 34 Item entries in 0.45ms.
+[16:26:54] [main/INFO] [Mystery Milk/]: Registered 5 Item entries in 0.07ms.
+[16:26:55] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `iron_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:55] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `golden_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:55] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:55] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `leather_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:55] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shield`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:55] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 194 ms
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/melee_damage.json, path: /data/bloodmagic/anointment/melee_damage.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/holy_water.json, path: /data/bloodmagic/anointment/holy_water.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/hidden_knowledge.json, path: /data/bloodmagic/anointment/hidden_knowledge.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/quick_draw.json, path: /data/bloodmagic/anointment/quick_draw.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_power.json, path: /data/bloodmagic/anointment/bow_power.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/arrow_protect.json, path: /data/bloodmagic/living_armor/arrow_protect.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fall_protect.json, path: /data/bloodmagic/living_armor/fall_protect.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/physical_protect.json, path: /data/bloodmagic/living_armor/physical_protect.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/jump.json, path: /data/bloodmagic/living_armor/jump.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/health.json, path: /data/bloodmagic/living_armor/health.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/experienced.json, path: /data/bloodmagic/living_armor/experienced.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/sprint_attack.json, path: /data/bloodmagic/living_armor/sprint_attack.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/self_sacrifice.json, path: /data/bloodmagic/living_armor/self_sacrifice.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/speed.json, path: /data/bloodmagic/living_armor/speed.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/poison_resist.json, path: /data/bloodmagic/living_armor/poison_resist.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fire_resist.json, path: /data/bloodmagic/living_armor/fire_resist.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/digging.json, path: /data/bloodmagic/living_armor/digging.json
+[16:26:56] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/knockback_resist.json, path: /data/bloodmagic/living_armor/knockback_resist.json
+[16:26:56] [main/INFO] [ip.wo.se.ModSetup/]: registerLootModifierSerializer
+[16:26:56] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.3ms.
+[16:26:57] [main/INFO] [ip.wo.se.ModSetup/]: registerTileEntities
+[16:26:57] [main/INFO] [wi.rs.ModRsGauges/]: Registered 10 tile entities.
+[16:26:57] [main/INFO] [Dark Utilities/]: Registered 2 TileEntityType entries in 0.15ms.
+[16:26:57] [main/INFO] [Botany Pots/]: Registered 1 TileEntityType entries in 0.04ms.
+[16:26:57] [main/INFO] [wa.bl.BloodMagic/]: Attempting to register Tile Entities
+[16:26:57] [main/INFO] [ip.wo.se.ModSetup/]: registerEnchantments
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blast_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `feather_falling`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `fire_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `projectile_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `fire_aspect`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `frost_walker`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `knockback`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `looting`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `thorns`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `mending`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farmingforblockheads:merchant, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/INFO] [co.by.BYG/]: BYG: Entities registered!
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for astralsorcery:flare, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for astralsorcery:spectral_tool, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:grizzly_bear, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:roadrunner, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent_part, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gazelle, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crocodile, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:fly, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hummingbird, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:orca, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:sunbird, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gorilla, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crimson_mosquito, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:rattlesnake, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:endergrade, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hammerhead_shark, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:lobster, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:komodo_dragon, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:capuchin_monkey, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_head, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_body, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_tail, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_toad, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:moose, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimicube, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:raccoon, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:blobfish, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:seal, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cockroach, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:shoebill, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:elephant, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:soul_vulture, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:snow_leopard, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:spectre, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crow, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:alligator_snapping_turtle, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mungus, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mantis_shrimp, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:guster, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_mosco, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:straddler, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:stradpole, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:emu, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:platypus, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:dropbear, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tasmanian_devil, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:kangaroo, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cachalot_whale, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:leafcutter_ant, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:enderiophage, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bald_eagle, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tiger, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tarantula_hawk, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:whelp, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:ally_vex, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:carbuncle, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:sylph, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:wixie, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:wilden_hunter, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:wilden_stalker, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:summon_wolf, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:summon_horse, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:wilden_guardian, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ars_nouveau:dummy, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for enchantwithmob:enchanter, use EntityAttributeCreationEvent instead.
+[16:26:57] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for null, use EntityAttributeCreationEvent instead.
+[16:26:58] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `menril_resin`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:58] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `menril_resin_flowing`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:58] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `liquid_chorus`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:58] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `liquid_chorus_flowing`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:58] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:58] [main/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[16:26:58] [main/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.client.particle.ModParticles:registerParticles:23]: Rendering particles
+[16:26:58] [main/INFO] [Mystery Milk/]: Registered 5 Potion entries in 0.19ms.
+[16:26:58] [main/INFO] [ip.wo.se.ModSetup/]: registerRecipeSerializer
+[16:26:58] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[16:26:58] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.08ms.
+[16:26:58] [main/INFO] [Botany Pots/]: Registered 3 IRecipeSerializer entries in 0.04ms.
+[16:26:59] [main/WARN] [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[16:26:59] [main/WARN] [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[16:26:59] [main/WARN] [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[16:26:59] [main/WARN] [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[16:26:59] [main/WARN] [ne.mi.re.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[16:27:01] [main/INFO] [co.by.BYG/]: BYG: Biomes registered!
+[16:27:01] [main/INFO] [co.by.BYG/]: BYG: Registering block placer types!
+[16:27:01] [main/INFO] [co.by.BYG/]: BYG: Decorators registered!
+[16:27:01] [main/INFO] [co.by.BYG/]: BYG: Features registered!
+[16:27:01] [main/INFO] [co.by.BYG/]: BYG: Structures registered!
+[16:27:01] [main/INFO] [co.by.BYG/]: BYG: Surface builders Registered!
+[16:27:01] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/linux-box/code/discord-mc/server/server/server/config/javd-common.toml is not correct. Correcting
+[16:27:01] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/linux-box/code/discord-mc/server/server/server/config/simplyutilities-common.toml is not correct. Correcting
+[16:27:01] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/linux-box/code/discord-mc/server/server/server/config/simplyutilities-common.toml is not correct. Correcting
+[16:27:01] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/linux-box/code/discord-mc/server/server/server/config/woot-common.toml is not correct. Correcting
+[16:27:01] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/linux-box/code/discord-mc/server/server/server/config/powah/energy/ender_gate.toml is not correct. Correcting
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class AstralSorceryPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class AstralSorceryPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class AstralSorceryPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[16:27:01] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class AstralSorceryPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class AstralSorceryPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[16:27:01] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class AstralSorceryPlugin
+[16:27:01] [main/INFO] [losttrinkets/Config]: Loading losttrinkets/general_common.toml
+[16:27:01] [main/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[16:27:01] [main/INFO] [losttrinkets/Config]: All: 68
+[16:27:01] [main/INFO] [losttrinkets/Config]: Enabled: 68 Disabled: 0
+[16:27:01] [main/INFO] [losttrinkets/Config]: Random: 68 Non-Random: 0
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Reloading losttrinkets/general_common.toml
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: All: 68
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Enabled: 68 Disabled: 0
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Random: 68 Non-Random: 0
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Reloading losttrinkets/general_common.toml
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: All: 68
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Enabled: 68 Disabled: 0
+[16:27:01] [Thread-0/INFO] [losttrinkets/Config]: Random: 68 Non-Random: 0
+[16:27:01] [main/INFO] [co._i.to.TowersOfTheWild/]: Config set
+[16:27:01] [main/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[16:27:01] [main/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[16:27:01] [Thread-0/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[16:27:01] [Thread-0/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[16:27:01] [Thread-0/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[16:27:01] [Thread-0/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[16:27:01] [Thread-0/FATAL] [co.sh.st.Statues/]: Statues' config just got changed on the file system!
+[16:27:01] [Thread-0/FATAL] [co.sh.st.Statues/]: Statues' config just got changed on the file system!
+[16:27:01] [main/INFO] [me.de.mo.ModularRouters/]: Common config re-baked
+[16:27:01] [Thread-0/INFO] [me.de.mo.ModularRouters/]: Common config re-baked
+[16:27:01] [Thread-0/INFO] [me.de.mo.ModularRouters/]: Common config re-baked
+[16:27:01] [main/INFO] [quark/]: Loading Module Chain Linkage
+[16:27:01] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[16:27:01] [main/INFO] [quark/]: Loading Module Chute
+[16:27:01] [main/INFO] [quark/]: Loading Module Color Slime
+[16:27:01] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[16:27:01] [main/INFO] [quark/]: Loading Module Ender Watcher
+[16:27:01] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[16:27:01] [main/INFO] [quark/]: Loading Module Feeding Trough
+[16:27:01] [main/INFO] [quark/]: Loading Module Gravisand
+[16:27:01] [main/INFO] [quark/]: Loading Module Iron Rod
+[16:27:01] [main/INFO] [quark/]: Loading Module Metal Buttons
+[16:27:01] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[16:27:01] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[16:27:01] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[16:27:01] [main/INFO] [quark/]: Loading Module Weather Sensor
+[16:27:01] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[16:27:01] [main/INFO] [quark/]: Loading Module Burn Vines
+[16:27:01] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[16:27:01] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[16:27:01] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[16:27:01] [main/INFO] [quark/]: Loading Module Framed Glass
+[16:27:01] [main/INFO] [quark/]: Loading Module Gold Bars
+[16:27:01] [main/INFO] [quark/]: Loading Module Grate
+[16:27:01] [main/INFO] [quark/]: Loading Module Hedges
+[16:27:01] [main/INFO] [quark/]: Loading Module Iron Plates
+[16:27:01] [main/INFO] [quark/]: Loading Module Item Frames
+[16:27:01] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[16:27:01] [main/INFO] [quark/]: Loading Module Lit Lamp
+[16:27:01] [main/INFO] [quark/]: Loading Module Midori
+[16:27:01] [main/INFO] [quark/]: Loading Module More Brick Types
+[16:27:01] [main/INFO] [quark/]: Loading Module More Potted Plants
+[16:27:01] [main/INFO] [quark/]: Loading Module More Stone Variants
+[16:27:01] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[16:27:01] [main/INFO] [quark/]: Loading Module Paper Decor
+[16:27:01] [main/INFO] [quark/]: Loading Module Quilted Wool
+[16:27:01] [main/INFO] [quark/]: Loading Module Rope
+[16:27:01] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[16:27:01] [main/INFO] [quark/]: Loading Module Shingles
+[16:27:01] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[16:27:01] [main/INFO] [quark/]: Loading Module Stained Planks
+[16:27:01] [main/INFO] [quark/]: Loading Module Stools
+[16:27:01] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[16:27:01] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[16:27:01] [main/INFO] [quark/]: Loading Module Thatch
+[16:27:01] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[16:27:01] [main/INFO] [quark/]: Loading Module Turf
+[16:27:01] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[16:27:01] [main/INFO] [quark/]: Loading Module Variant Chests
+[16:27:01] [main/INFO] [quark/]: Loading Module Variant Ladders
+[16:27:01] [main/INFO] [quark/]: Loading Module Vertical Planks
+[16:27:01] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[16:27:01] [main/INFO] [quark/]: Loading Module Wooden Posts
+[16:27:01] [main/INFO] [quark/]: Loading Module Chests In Boats
+[16:27:01] [main/INFO] [quark/]: Loading Module Easy Transfering
+[16:27:01] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[16:27:01] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[16:27:01] [main/INFO] [quark/]: Loading Module Item Sharing
+[16:27:01] [main/INFO] [quark/]: Loading Module Right Click Armor
+[16:27:01] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[16:27:01] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[16:27:01] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[16:27:01] [main/INFO] [quark/]: Loading Module Camera
+[16:27:01] [main/INFO] [quark/]: Loading Module Color Runes
+[16:27:01] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[16:27:01] [main/INFO] [quark/]: Loading Module Pickarang
+[16:27:01] [main/INFO] [quark/]: Loading Module Seed Pouch
+[16:27:01] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[16:27:01] [main/INFO] [quark/]: Loading Module Trowel
+[16:27:01] [main/INFO] [quark/]: Loading Module Skull Pikes
+[16:27:01] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[16:27:01] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[16:27:01] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[16:27:01] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[16:27:01] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[16:27:01] [main/INFO] [quark/]: Loading Module Dirt To Path
+[16:27:01] [main/INFO] [quark/]: Loading Module Double Door Opening
+[16:27:01] [main/INFO] [quark/]: Loading Module Dragon Scales
+[16:27:01] [main/INFO] [quark/]: Loading Module Emotes
+[16:27:01] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[16:27:01] [main/INFO] [quark/]: Loading Module Glass Shard
+[16:27:01] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[16:27:01] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[16:27:01] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[16:27:02] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[16:27:02] [main/INFO] [quark/]: Loading Module Lock Rotation
+[16:27:02] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[16:27:02] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[16:27:02] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[16:27:02] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[16:27:02] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[16:27:02] [main/INFO] [quark/]: Loading Module Sign Editing
+[16:27:02] [main/INFO] [quark/]: Loading Module Simple Harvest
+[16:27:02] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[16:27:02] [main/INFO] [quark/]: Loading Module Springy Slime
+[16:27:02] [main/INFO] [quark/]: Loading Module Utility Recipes
+[16:27:02] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[16:27:02] [main/INFO] [quark/]: Loading Module Big Dungeon
+[16:27:02] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[16:27:02] [main/INFO] [quark/]: Loading Module Biotite
+[16:27:02] [main/INFO] [quark/]: Loading Module Blossom Trees
+[16:27:02] [main/INFO] [quark/]: Loading Module Cave Roots
+[16:27:02] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[16:27:02] [main/INFO] [quark/]: Loading Module Crevices
+[16:27:02] [main/INFO] [quark/]: Loading Module Fairy Rings
+[16:27:02] [main/INFO] [quark/]: Loading Module Mega Caves
+[16:27:02] [main/INFO] [quark/]: Loading Module Monster Box
+[16:27:02] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[16:27:02] [main/INFO] [quark/]: Loading Module New Stone Types
+[16:27:02] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[16:27:02] [main/INFO] [quark/]: Loading Module Speleothems
+[16:27:02] [main/INFO] [quark/]: Loading Module Spiral Spires
+[16:27:02] [main/INFO] [quark/]: Loading Module Underground Clay
+[16:27:02] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Crabs
+[16:27:02] [main/INFO] [quark/]: Loading Module Forgotten
+[16:27:02] [main/INFO] [quark/]: Loading Module Foxhound
+[16:27:02] [main/INFO] [quark/]: Loading Module Frogs
+[16:27:02] [main/INFO] [quark/]: Loading Module Stonelings
+[16:27:02] [main/INFO] [quark/]: Loading Module Toretoise
+[16:27:02] [main/INFO] [quark/]: Loading Module Wraith
+[16:27:02] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[16:27:02] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[16:27:02] [main/INFO] [quark/]: Loading Module Chest Searching
+[16:27:02] [main/INFO] [quark/]: Loading Module Greener Grass
+[16:27:02] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[16:27:02] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[16:27:02] [main/INFO] [quark/]: Loading Module Usage Ticker
+[16:27:02] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[16:27:02] [main/INFO] [quark/]: Loading Module Backpack
+[16:27:02] [main/INFO] [quark/]: Loading Module Crate
+[16:27:02] [main/INFO] [quark/]: Loading Module Magnets
+[16:27:02] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[16:27:02] [main/INFO] [quark/]: Loading Module Pipes
+[16:27:02] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[16:27:02] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[16:27:02] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[16:27:02] [main/INFO] [quark/]: Loading Module Game Nerfs
+[16:27:02] [main/INFO] [quark/]: Loading Module Narrator Readout
+[16:27:02] [main/INFO] [quark/]: Loading Module Overlay Shader
+[16:27:02] [main/INFO] [quark/]: Loading Module Shiba
+[16:27:02] [modloading-worker-13/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class ImmersiveEngineeringPlugin
+[16:27:02] [modloading-worker-13/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[16:27:02] [modloading-worker-13/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class FarmersDelightPlugin
+[16:27:02] [modloading-worker-13/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class AstralSorceryPlugin
+[16:27:02] [modloading-worker-9/INFO] [st.si.SimplyJetpacks/]: Common Setup Method registered.
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of all entities from cyberware
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of all entities from withercrumbs
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of twighlightforest:knight_phantom
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of twighlightforest:lich
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of twighlightforest:quest_ram
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_worker
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_soldier
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_sentinel
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_royal
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_queen
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting learning of all items from cyberware
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting learning of all items from ebwizardry
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting learning of all items from eplus
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting learning of all items from everlastingabilities
+[16:27:02] [modloading-worker-6/INFO] [pneumaticcraft/]: PneumaticCraft: Repressurized is loading!
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting learning of all items from cyberware
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of all entities from botania
+[16:27:02] [modloading-worker-15/INFO] [integrateddynamics/]: Registered packet handler.
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.se.ModSetup/]: /home/linux-box/code/discord-mc/server/server/server/woot/loot.json
+[16:27:02] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/linux-box/code/discord-mc/server/server/server/config/integrateddynamics-common.toml is not correct. Correcting
+[16:27:02] [modloading-worker-9/INFO] [mythicbotany/]: Loading MythicBotany
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ender_dragon:HEALTH -> 500
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_3_COUNT -> 4
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_3_COUNT -> 4
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_2_COUNT -> 3
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_2_COUNT -> 3
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:iron_golem:XP -> 20
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:bat:XP -> 1
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:snow_golem:XP -> 1
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:villager:XP -> 2
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:wandering_villager:XP -> 2
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ender_dragon:XP -> 500
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:wither_skeleton:TIER -> 4
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:villager:TIER -> 4
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:magma_cube:TIER -> 3
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:enderman:TIER -> 4
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:villager_golem:TIER -> 4
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:guardian:TIER -> 4
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:blaze:TIER -> 3
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:witch:TIER -> 3
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ghast:TIER -> 3
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:zombie_pigman:TIER -> 3
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ender_dragon:TIER -> 5
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:wither:TIER -> 5
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_1_COUNT -> 2
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_1_COUNT -> 2
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:wither:SPAWN_TICKS -> 1200
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.co.ConfigOverride/]: Added integer override of minecraft:ender_dragon:SPAWN_TICKS -> 12000
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.po.PolicyRegistry/]: Blacklisting capturing of all entities from botania
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.se.ModSetup/]: SkullGenerator: minecraft:skeleton -> 1 skeleton_skull
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.se.ModSetup/]: SkullGenerator: minecraft:wither_skeleton -> 1 wither_skeleton_skull
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.se.ModSetup/]: SkullGenerator: minecraft:zombie -> 1 zombie_head
+[16:27:02] [modloading-worker-2/INFO] [ip.wo.se.ModSetup/]: SkullGenerator: minecraft:creeper -> 1 creeper_head
+[16:27:02] [modloading-worker-3/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[16:27:02] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[16:27:02] [modloading-worker-8/INFO] [Mekanism/]: Version 10.0.21 initializing...
+[16:27:02] [modloading-worker-2/INFO] [co.by.BYG/]: Reading Sub-Biomes json
+[16:27:02] [modloading-worker-2/INFO] [co.by.BYG/]: Reading json
+[16:27:02] [modloading-worker-2/INFO] [co.by.BYG/]: BYG: "Common Setup" Event Complete!
+[16:27:02] [modloading-worker-4/INFO] [co.da.se.ServerConfigUpdater/]: Attempting to delete 0 files/folders defined in config
+[16:27:02] [modloading-worker-4/INFO] [wi.rs.ModRsGauges/]: Registering recipe condition processor ...
+[16:27:02] [modloading-worker-15/INFO] [Bookshelf/]: Registering 3 command argument types.
+[16:27:03] [modloading-worker-15/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[16:27:03] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/linux-box/code/discord-mc/server/server/server/config/integrateddynamics-common.toml is not correct. Correcting
+[16:27:03] [modloading-worker-12/INFO] [integrateddynamics/]: Registered packet handler.
+[16:27:03] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[16:27:03] [modloading-worker-3/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[16:27:03] [modloading-worker-10/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for losttrinkets:dark_vex, use EntityAttributeCreationEvent instead.
+[16:27:03] [modloading-worker-10/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.capability.ManaCapability:register:62]: Finished Registering ManaCapability
+[16:27:03] [modloading-worker-10/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.network.Networking:registerMessages:20]: Registering packets!!
+[16:27:03] [modloading-worker-4/INFO] [mo.pi.bl.BlockCarpentryMain/]: Setting up BlockCarpentry mod
+[16:27:03] [modloading-worker-1/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[16:27:03] [modloading-worker-4/INFO] [Dungeon Crawl/]: Common Setup
+[16:27:03] [modloading-worker-4/INFO] [Dungeon Crawl/]: Registering Structure Piece Types
+[16:27:03] [modloading-worker-2/WARN] [morpheus/]: New day handler for dimension ResourceKey[minecraft:dimension / minecraft:overworld] has been replaced
+[16:27:03] [modloading-worker-2/INFO] [mcjtylib/]: XNet Detected RFTools Control: enabling support
+[16:27:03] [modloading-worker-13/INFO] [mcjtylib/]: RFTools Storage Detected XNet: enabling support
+[16:27:03] [modloading-worker-8/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[16:27:03] [modloading-worker-8/INFO] [Mekanism/]: Loading complete.
+[16:27:03] [modloading-worker-8/INFO] [Mekanism/]: Mod loaded.
+[16:27:03] [modloading-worker-1/INFO] [AE2:C/]: Post Initialization ( started )
+[16:27:03] [AstralSorcery Patreon Effect Loader/WARN] [Astral Sorcery/]: Skipped 2 patreon effects during loading due to malformed data!
+[16:27:03] [AstralSorcery Patreon Effect Loader/INFO] [Astral Sorcery/]: Patreon effect loading finished.
+[16:27:03] [modloading-worker-1/INFO] [AE2:C/]: Post Initialization ( ended after 85ms )
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 iron_nugget = 1 iron_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 gold_nugget = 1 gold_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 nugget_steel = 1 ingot_steel
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 silver_nugget = 1 silver_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 nickel_nugget = 1 nickel_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 copper_nugget = 1 copper_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 nugget_uranium = 1 ingot_uranium
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 tin_nugget = 1 tin_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 lead_nugget = 1 lead_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 bronze_nugget = 1 bronze_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 electrum_nugget = 1 electrum_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 bronze_nugget = 1 bronze_ingot
+[16:27:16] [modloading-worker-4/INFO] [co.ja.mi.st.StorageDrawers/]: New compacting rule 9 constantan_nugget = 1 constantan_ingot
+[16:27:16] [modloading-worker-3/INFO] [me.de.mo.ModularRouters/]: Modular Routers is loading!
+[16:27:16] [modloading-worker-1/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for statues:player_statue, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-1/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for statues:statue_bat, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-15/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-8/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mahoutsukai:fae, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-8/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mahoutsukai:familiar_entity, use EntityAttributeCreationEvent instead.
+[16:27:16] [modloading-worker-8/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mahoutsukai:kodoku_entity, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_fish, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:dragonfly, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:shadow_walker, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_slime, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:cubozoa, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:silk_moth, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mythicbotany:alf_pixie, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanism:robit, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for thermal:basalz, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for thermal:blitz, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for thermal:blizz, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
+[16:27:17] [main/WARN] [ne.mi.co.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for ice_ice_baby:iceologer, use EntityAttributeCreationEvent instead.
+[16:27:17] [main/INFO] [pneumaticcraft/]: Registered experience fluid 'industrialforegoing:essence' with mB->XP ratio 20
+[16:27:17] [main/INFO] [pneumaticcraft/]: Registered experience fluid 'cyclic:xpjuice' with mB->XP ratio 20
+[16:27:17] [modloading-worker-12/INFO] [mo.pi.bl.BlockCarpentryMain/]: Processing InterModCommunication
+[16:27:17] [modloading-worker-12/INFO] [mo.pi.bl.BlockCarpentryMain/]: Processed InterModCommunication
+[16:27:17] [modloading-worker-4/INFO] [st.si.SimplyJetpacks/]: Hello from Simply Jetpacks 2
+[16:27:17] [modloading-worker-4/INFO] [st.si.SimplyJetpacks/]: Got IMC [Hello!]
+[16:27:17] [modloading-worker-10/INFO] [ne.bl.mo.cr.CraftingTweaks/]: refinedstorage has registered com.refinedmods.refinedstorage.container.GridContainer for CraftingTweaks
+[16:27:17] [modloading-worker-10/INFO] [ne.bl.mo.cr.CraftingTweaks/]: fastbench has registered shadows.fastbench.gui.ContainerFastBench for CraftingTweaks
+[16:27:17] [modloading-worker-11/INFO] [pneumaticcraft/]: Enabled support for The One Probe
+[16:27:17] [modloading-worker-11/INFO] [ip.wo.se.ModSetup/]: Enabling support The One Probe
+[16:27:17] [modloading-worker-11/INFO] [mcjtylib/]: Enabled support for The One Probe
+[16:27:17] [modloading-worker-11/INFO] [mcjtylib/]: Enabled support for The One Probe
+[16:27:17] [modloading-worker-11/INFO] [me.de.mo.ModularRouters/]: Enabled support for The One Probe
+[16:27:17] [modloading-worker-9/INFO] [powah/Config]: Added coolant fluid: minecraft:water, with coldness of: 1 per mb
+[16:27:17] [modloading-worker-9/INFO] [powah/Config]: Added block: minecraft:lava, with heat of: 1000
+[16:27:17] [modloading-worker-9/INFO] [powah/Config]: Added block: minecraft:magma_block, with heat of: 800
+[16:27:17] [modloading-worker-9/INFO] [powah/Config]: Added block: powah:blazing_crystal_block, with heat of: 2800
+[16:27:17] [modloading-worker-9/INFO] [powah/Config]: Added fluid: minecraft:lava, with heat of: 10000 per 100 mb
+[16:27:17] [modloading-worker-12/INFO] [ne.xa.to.Torchmaster/]: Applying mega torch entity block list overrides...
+[16:27:17] [modloading-worker-12/INFO] [ne.xa.to.Torchmaster/]: Applying dread lamp entity block list overrides...
+[16:27:18] [main/INFO] [co.by.BYG/]: BYG: Compostible Blocks Added!
+[16:27:18] [main/INFO] [co.by.BYG/]: BYG: Added Hoeable Blocks!
+[16:27:18] [main/INFO] [co.by.BYG/]: BYG: Added Flammables!
+[16:27:18] [main/INFO] [co.by.BYG/]: BYG: Added strippable Blocks...
+[16:27:18] [main/INFO] [co.by.BYG/]: BYG: "Load Complete" Event Complete!
+[16:27:48] [main/INFO] [Dungeon Crawl/]: Loading /home/linux-box/code/discord-mc/server/server/server/config/DungeonCrawl/config.json
+[16:27:48] [main/INFO] [Dungeon Crawl/]: Loading /home/linux-box/code/discord-mc/server/server/server/config/DungeonCrawl/loot/specialItemTags.json
+[16:27:48] [main/INFO] [co._i.to.TowersOfTheWild/]: tower structure feature registered
+[16:27:48] [main/INFO] [co._i.to.TowersOfTheWild/]: ice_tower structure feature registered
+[16:27:48] [main/INFO] [co._i.to.TowersOfTheWild/]: jungle_tower structure feature registered
+[16:27:48] [main/INFO] [co._i.to.TowersOfTheWild/]: derelict_tower structure feature registered
+[16:27:48] [main/INFO] [co._i.to.TowersOfTheWild/]: derelict_grass_tower structure feature registered
+[16:27:48] [main/INFO] [co._i.to.TowersOfTheWild/]: ocean_tower structure feature registered
+[16:27:48] [main/INFO] [co._i.to.TowersOfTheWild/]: ocean_warm_tower structure feature registered
+[16:27:50] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:27:50] [main/FATAL] [minecraft/Main]: Failed to start the minecraft server

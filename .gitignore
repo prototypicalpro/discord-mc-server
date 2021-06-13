@@ -1,3 +1,4 @@
-gen
 server
 server-modded
+src/gen/proto/*.py
+__pycache__
