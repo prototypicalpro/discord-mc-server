@@ -9,10 +9,11 @@ autopep8 = "*"
 grpcio-tools = "*"
 pytest = "*"
 pytest-asyncio = "*"
+pytest-timeout = "*"
 
 [packages]
 grpcio = "*"
-pytest-timeout = "*"
+
 
 [requires]
 python_version = "3.8"

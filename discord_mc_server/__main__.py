@@ -1,4 +1,8 @@
 import asyncio
+
+from google.protobuf.duration_pb2 import Duration
+from .rpc_server import MCManagementService
+from .gen.proto.mc_management_pb2 import SubscribeHeartbeatRequest
 import os
 import logging
 import signal
@@ -11,51 +15,41 @@ from .mc_server import MCProcess
 log = logging.getLogger('main')
 
 
-async def mc_main_loop(proc: MCProcess):
-    await proc.wait_bootup()
-
-    log.info('Engine detected server is ready!')
-
-    proc.write('/list\n')
-
-    async for log_msg in proc.stdout:
-        # process events and such!
-        pass
-
-    log.fatal('STDOUT pipe closed unexpectedly!')
-    raise RuntimeError('STDOUT pipe closed unexpectedly')
-
-
 def atexit_handler(loop_future: asyncio.futures.Future):
     loop_future.set_exception(SystemExit)
+
+
+async def check_heartbeat(service: MCManagementService):
+    request = SubscribeHeartbeatRequest(
+        heartbeat_duration_sec_atleast=Duration(seconds=0, nanos=0))
+    async for beat in service.SubscribeHeartbeat(request, None):
+        print(beat)
 
 
 async def main():
     logging.basicConfig(level=logging.INFO)
     log.setLevel(logging.DEBUG)
 
-    log.info('Welcome to minecraft! Booting up...')
-    log.info(f'Self PID: {os.getpid()}')
-
-    proc = await MCProcess.make_mcprocess()
+    # redirect sigterm to exit the process
     atexit_future = asyncio.get_running_loop().create_future()
     atexit.register(atexit_handler, atexit_future)
     signal.signal(signal.SIGTERM, lambda num, frame: sys.exit(0))
 
+    log.info('Welcome to minecraft! Booting up...')
+    log.info(f'Self PID: {os.getpid()}')
+
+    proc = await MCProcess.make_mcprocess()
+    service = MCManagementService(proc)
+
+    asyncio.create_task(check_heartbeat(service))
+
     try:
-        mc_task = asyncio.create_task(mc_main_loop(proc))
+        mc_task = asyncio.create_task(service.run_service_until_termination())
         await asyncio.gather(mc_task, atexit_future)
     finally:
         log.info('Recieved exit signal, exiting...')
-        mc_task.cancel()
-        atexit_future.cancel()
-        try:
-            # Note that typically the server will stop due to SIGTERM on it's own
-            await asyncio.wait_for(proc.stop(), timeout=10)
-        except TimeoutError:
-            log.error('Server took too long to shutdown, killing...')
-            proc.proc.kill()
         atexit.unregister(atexit_handler)
+        atexit_future.cancel()
 
 
 if __name__ == '__main__':

@@ -3,6 +3,7 @@ import re
 import os
 import logging
 import asyncio
+from collections.abc import AsyncIterator
 from dataclasses import dataclass
 from datetime import datetime, date, time
 from pathlib import Path
@@ -29,7 +30,11 @@ MC_LOG_REGEX = re.compile(
 log = logging.getLogger('mc-server')
 
 
-class MCProcess:
+class MCProcessError(RuntimeError):
+    pass
+
+
+class MCProcess(AsyncIterator):
     @dataclass
     class ServerLog:
         time: datetime
@@ -62,7 +67,16 @@ class MCProcess:
 
     def __init__(self, proc: asyncio.subprocess.Process):
         self.proc = proc
-        self.stdout = self._parse_log_gen(proc.stdout)
+
+    async def next_line(self):
+        line = await self.proc.stdout.readline()
+        strline = line.decode('utf8').rstrip()
+        log.debug(strline)
+
+        return MCProcess.ServerLog.from_log_line(strline)
+
+    async def __anext__(self):
+        return await self.next_line()
 
     def write(self, command: str):
         log.debug(f'"{command.rstrip()}" --> server')
@@ -70,11 +84,11 @@ class MCProcess:
 
     async def wait_bootup(self):
         # wait for bootup to finish
-        async for log_msg in self.stdout:
+        async for log_msg in self:
             if isinstance(log_msg, MCProcess.ServerLog):
                 if log_msg.module == 'minecraft':
                     if log_msg.level == 'FATAL':
-                        raise RuntimeError(
+                        raise MCProcessError(
                             f'server raised a fatal error {log_msg.raw_log}')
 
                     if log_msg.level == 'INFO' and 'done' in log_msg.msg.lower():
@@ -100,12 +114,3 @@ class MCProcess:
             cwd=SERVER_DIR)
         log.info(f'Server PID: {process.pid}')
         return MCProcess(process)
-
-    @staticmethod
-    async def _parse_log_gen(stream: asyncio.streams.StreamReader):
-        while not stream.at_eof():
-            line = await stream.readline()
-            strline = line.decode('utf8').rstrip()
-            log.debug(strline)
-
-            yield MCProcess.ServerLog.from_log_line(strline)
