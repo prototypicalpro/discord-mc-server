@@ -1,0 +1,184 @@
+[18:06:25] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[18:06:25] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been successfully loaded
+[18:06:25] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:overworld by 0 flux devices
+[18:06:25] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_nether by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_end by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in woot:tartarus by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in mahoutsukai:reality_marble by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in mythicbotany:alfheim by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in undergarden:undergarden by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in javd:void by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in jamd:mining by 0 flux devices
+[18:06:26] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:28] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:32] [Worker-Main-17/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-17/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-10/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:33] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:33] [Worker-Main-19/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:34] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:34] [Worker-Main-18/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:35] [Worker-Main-9/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:35] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:36] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 85%
+[18:06:36] [Worker-Main-18/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 85%
+[18:06:37] [Worker-Main-19/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 87%
+[18:06:37] [Worker-Main-10/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 90%
+[18:06:37] [Worker-Main-10/INFO] [ObserverLib/]: Load CachedWorldData 'rock-crystals' for world minecraft:overworld
+[18:06:37] [Worker-Main-10/INFO] [ObserverLib/]: Loading of 'rock-crystals' for world minecraft:overworld finished.
+[18:06:38] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 92%
+[18:06:38] [Worker-Main-10/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 96%
+[18:06:39] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Time elapsed: 12989 ms
+[18:06:39] [Server thread/INFO] [minecraft/DedicatedServer]: Done (14.039s)! For help, type "help"
+[18:06:39] [Server thread/INFO] [st.si.SimplyJetpacks/]: Server starting...
+[18:06:39] [Server thread/INFO] [co.by.BYG/]: BYG: "Server Starting" Event Complete!
+[18:06:39] [Server thread/INFO] [FTB Chunks/]: Server 92afafef-e34d-4e6b-acd3-de876fa192d5: Loaded 0 chunks (0 force loaded) from 1 players in 12.798ms
+[18:06:39] [Server thread/INFO] [ip.wo.se.ModSetup/]: onServerStarting
+[18:06:39] [Server thread/INFO] [ip.wo.se.ModSetup/]: onServerStarting: force load Tartarus Cells
+[18:06:39] [Server thread/INFO] [FTB Utilities Backups/]: Backups folder - C:\Users\Noah\Documents\code\discord-mc\server\server\backups
+[18:06:39] [Server thread/INFO] [FTB Ranks/]: Loading command nodes...
+[18:06:39] [Server thread/INFO] [FTB Ranks/]: Loaded 2104 command nodes
+[18:06:39] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[18:06:39] [Server thread/INFO] [Astral Sorcery/]: Loaded PerkTree!
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_custom_voxel_collision' ASM patch...
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_custom_voxel_collision' ASM patch!
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_custom_collision_flag' ASM patch...
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_custom_collision_flag' ASM patch!
+[18:21:52] [Netty Server IO #1/INFO] [co.li.co.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[18:21:53] [User Authenticator #1/INFO] [minecraft/ServerLoginNetHandler]: UUID of player BobTheScumbag is e83d62f3-da1a-4c42-9255-f220513a08c5
+[18:22:04] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@35d4c6c3
+[18:22:04] [Server thread/INFO] [minecraft/PlayerList]: BobTheScumbag[/127.0.0.1:18544] logged in with entity id 180 at (153.5, 67.0, 111.5)
+[18:22:04] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag joined the game
+[18:22:04] [Server thread/INFO] [jecalculation/]: Failed to load default records at C:\Users\Noah\Documents\code\discord-mc\server\server\config\jecalculation.
+[18:22:04] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag has completed the challenge [Simply Jetpacks 2]
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Recipe packet size: 940545
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Item stack bytes: 251856
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: RL path bytes: 206739
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache size: 3886
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache hits: 52379
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Recipe packet size: 940546
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Item stack bytes: 251856
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: RL path bytes: 206739
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache size: 3886
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache hits: 52379
+/time set 0
+[18:22:59] [Server thread/INFO] [minecraft/DedicatedServer]: Set the time to 0
+[18:23:56] [Server thread/INFO] [minecraft/DedicatedServer]: <BobTheScumbag> hello!
+[18:24:14] [Server thread/INFO] [minecraft/ServerPlayNetHandler]: BobTheScumbag lost connection: Disconnected
+[18:24:14] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag left the game
+/players
+[18:24:36] [Server thread/INFO] [minecraft/DedicatedServer]: Unknown or incomplete command, see below for error
+[18:24:36] [Server thread/INFO] [minecraft/DedicatedServer]: /players<--[HERE]
+/list
+[18:24:40] [Server thread/INFO] [minecraft/DedicatedServer]: There are 0 of a max of 20 players online:
+[18:24:43] [Netty Server IO #2/INFO] [co.li.co.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[18:24:44] [User Authenticator #2/INFO] [minecraft/ServerLoginNetHandler]: UUID of player BobTheScumbag is e83d62f3-da1a-4c42-9255-f220513a08c5
+[18:24:54] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@76552cd
+[18:24:54] [Server thread/INFO] [minecraft/PlayerList]: BobTheScumbag[/127.0.0.1:18600] logged in with entity id 506 at (151.84302961658864, 67.0, 111.54951427084339)
+[18:24:54] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag joined the game
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Recipe packet size: 940545
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Item stack bytes: 251856
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: RL path bytes: 206739
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Ingredient cache size: 3886
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Ingredient cache hits: 52379
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Recipe packet size: 940546
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Item stack bytes: 251856
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: RL path bytes: 206739
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Ingredient cache size: 3886
+[18:24:55] [Netty Server IO #2/INFO] [recipebuffers - WRITE/]: Ingredient cache hits: 52379
+/list
+[18:25:31] [Server thread/INFO] [minecraft/DedicatedServer]: There are 1 of a max of 20 players online: BobTheScumbag
+[18:25:48] [Server thread/INFO] [minecraft/ServerPlayNetHandler]: BobTheScumbag lost connection: Disconnected
+[18:25:48] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag left the game
+Fanciness Thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_enchantments' ASM patch!
+[18:06:25] [Botania Contributor Fanciness Thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_apply_modifier' ASM patch...
+[18:06:25] [Botania Contributor Fanciness Thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_apply_modifier' ASM patch!
+[18:06:25] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[18:06:25] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been successfully loaded
+[18:06:25] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:overworld by 0 flux devices
+[18:06:25] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_nether by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_end by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in woot:tartarus by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in mahoutsukai:reality_marble by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in mythicbotany:alfheim by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in undergarden:undergarden by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in javd:void by 0 flux devices
+[18:06:26] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in jamd:mining by 0 flux devices
+[18:06:26] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:27] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:28] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 0%
+[18:06:32] [Worker-Main-17/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-17/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:32] [Worker-Main-10/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:33] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:33] [Worker-Main-19/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:34] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:34] [Worker-Main-18/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:35] [Worker-Main-9/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:35] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 83%
+[18:06:36] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 85%
+[18:06:36] [Worker-Main-18/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 85%
+[18:06:37] [Worker-Main-19/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 87%
+[18:06:37] [Worker-Main-10/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 90%
+[18:06:37] [Worker-Main-10/INFO] [ObserverLib/]: Load CachedWorldData 'rock-crystals' for world minecraft:overworld
+[18:06:37] [Worker-Main-10/INFO] [ObserverLib/]: Loading of 'rock-crystals' for world minecraft:overworld finished.
+[18:06:38] [Worker-Main-13/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 92%
+[18:06:38] [Worker-Main-10/INFO] [minecraft/LoggingChunkStatusListener]: Preparing spawn area: 96%
+[18:06:39] [Server thread/INFO] [minecraft/LoggingChunkStatusListener]: Time elapsed: 12989 ms
+[18:06:39] [Server thread/INFO] [minecraft/DedicatedServer]: Done (14.039s)! For help, type "help"
+[18:06:39] [Server thread/INFO] [st.si.SimplyJetpacks/]: Server starting...
+[18:06:39] [Server thread/INFO] [co.by.BYG/]: BYG: "Server Starting" Event Complete!
+[18:06:39] [Server thread/INFO] [FTB Chunks/]: Server 92afafef-e34d-4e6b-acd3-de876fa192d5: Loaded 0 chunks (0 force loaded) from 1 players in 12.798ms
+[18:06:39] [Server thread/INFO] [ip.wo.se.ModSetup/]: onServerStarting
+[18:06:39] [Server thread/INFO] [ip.wo.se.ModSetup/]: onServerStarting: force load Tartarus Cells
+[18:06:39] [Server thread/INFO] [FTB Utilities Backups/]: Backups folder - C:\Users\Noah\Documents\code\discord-mc\server\server\backups
+[18:06:39] [Server thread/INFO] [FTB Ranks/]: Loading command nodes...
+[18:06:39] [Server thread/INFO] [FTB Ranks/]: Loaded 2104 command nodes
+[18:06:39] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[18:06:39] [Server thread/INFO] [Astral Sorcery/]: Loaded PerkTree!
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_custom_voxel_collision' ASM patch...
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_custom_voxel_collision' ASM patch!
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Adding 'add_custom_collision_flag' ASM patch...
+[18:06:39] [Server thread/INFO] [ne.mi.co.Co.astralsorcery/COREMODLOG]: Added 'add_custom_collision_flag' ASM patch!
+[18:21:52] [Netty Server IO #1/INFO] [co.li.co.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[18:21:53] [User Authenticator #1/INFO] [minecraft/ServerLoginNetHandler]: UUID of player BobTheScumbag is e83d62f3-da1a-4c42-9255-f220513a08c5
+[18:22:04] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@35d4c6c3
+[18:22:04] [Server thread/INFO] [minecraft/PlayerList]: BobTheScumbag[/127.0.0.1:18544] logged in with entity id 180 at (153.5, 67.0, 111.5)
+[18:22:04] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag joined the game
+[18:22:04] [Server thread/INFO] [jecalculation/]: Failed to load default records at C:\Users\Noah\Documents\code\discord-mc\server\server\config\jecalculation.
+[18:22:04] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag has completed the challenge [Simply Jetpacks 2]
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Recipe packet size: 940545
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Item stack bytes: 251856
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: RL path bytes: 206739
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache size: 3886
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache hits: 52379
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Recipe packet size: 940546
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Item stack bytes: 251856
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: RL path bytes: 206739
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache size: 3886
+[18:22:05] [Netty Server IO #1/INFO] [recipebuffers - WRITE/]: Ingredient cache hits: 52379
+[18:23:40] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag drowned
+/time set 0
+[18:22:59] [Server thread/INFO] [minecraft/DedicatedServer]: Set the time to 0
+[18:23:56] [Server thread/INFO] [minecraft/DedicatedServer]: <BobTheScumbag> hello!
+[18:24:14] [Server thread/INFO] [minecraft/ServerPlayNetHandler]: BobTheScumbag lost connection: Disconnected
+[18:24:14] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag left the game

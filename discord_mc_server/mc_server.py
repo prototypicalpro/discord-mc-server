@@ -1,13 +1,11 @@
 import shutil
-import re
 import os
 import logging
 import asyncio
 from collections.abc import AsyncIterator
-from dataclasses import dataclass
-from datetime import datetime, date, time
 from pathlib import Path
-from typing import Union
+
+from .server_log import ServerLog
 
 assert shutil.which('java')
 JAVA_PATH = Path(shutil.which('java'))
@@ -23,9 +21,6 @@ SERVER_DIR = Path(f'{os.getcwd()}/server')
 SERVER_JAR = SERVER_DIR.joinpath('forge-1.16.5-36.1.16.jar')
 SERVER_ARGS = ('nogui')
 
-MC_LOG_REGEX = re.compile(
-    r'^\[(\d\d:\d\d:\d\d)] \[([^/]+)/(\w+)\] \[([^/]+)/(\w*)\]: (.*)$')
-
 
 log = logging.getLogger('mc-server')
 
@@ -35,36 +30,6 @@ class MCProcessError(RuntimeError):
 
 
 class MCProcess(AsyncIterator):
-    @dataclass
-    class ServerLog:
-        time: datetime
-        process: str
-        level: str
-        module: str
-        submodule: str
-        msg: str
-        raw_log: str
-
-        def from_log_line(line: str) -> Union['MCProcess.ServerLog', str]:
-            assert len(line.splitlines()) <= 1
-
-            parsed = MC_LOG_REGEX.match(line)
-            if not parsed:
-                log.warning(f'Unparsed: {line}')
-                return line
-            else:
-                hour, min, sec = [int(t) for t in parsed.group(1).split(':')]
-                log_time = time(hour=hour, minute=min, second=sec)
-                return MCProcess.ServerLog(
-                    datetime.combine(date.today(), log_time),
-                    parsed.group(2),
-                    parsed.group(3),
-                    parsed.group(4),
-                    parsed.group(5),
-                    parsed.group(6),
-                    line
-                )
-
     def __init__(self, proc: asyncio.subprocess.Process):
         self.proc = proc
 
@@ -73,7 +38,7 @@ class MCProcess(AsyncIterator):
         strline = line.decode('utf8').rstrip()
         log.debug(strline)
 
-        return MCProcess.ServerLog.from_log_line(strline)
+        return ServerLog.from_log_line(strline)
 
     async def __anext__(self):
         return await self.next_line()
@@ -85,7 +50,7 @@ class MCProcess(AsyncIterator):
     async def wait_bootup(self):
         # wait for bootup to finish
         async for log_msg in self:
-            if isinstance(log_msg, MCProcess.ServerLog):
+            if isinstance(log_msg, ServerLog):
                 if log_msg.module == 'minecraft':
                     if log_msg.level == 'FATAL':
                         raise MCProcessError(
