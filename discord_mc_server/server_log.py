@@ -1,3 +1,4 @@
+from discord_mc_server.gen.proto.mc_management_pb2 import UpdateWhitelistResponse
 import logging
 import re
 from dataclasses import dataclass
@@ -10,18 +11,22 @@ MC_LOG_REGEX = re.compile(
 MC_MINECRAFT_MODULE = 'minecraft'
 MC_SERVERLOG_SUBMODULE = 'DedicatedServer'
 
-log = logging.getLogger('server_log')
+log = logging.getLogger('main')
 
 
 class WhitelistResult(Enum):
-    INVAL_NAME = 0
-    NONE = 1
-    NO_REMOVE = 2
-    INVAL_MC_USER = 3
-    LIST_OK = 3
-    ADD_OK = 4
-    REM_OK = 5
-    TIMEOUT = 6
+    INVAL_NAME = 1
+    NONE = 2
+    NO_REMOVE = 3
+    INVAL_MC_USER = 4
+    DUP_ADD = 5
+    LIST_OK = 6
+    ADD_OK = 7
+    REM_OK = 8
+    TIMEOUT = 9
+
+    def to_whitelist_result(self):
+        return UpdateWhitelistResponse.WhitelistResult.Value(self.name)
 
 
 @dataclass
@@ -90,6 +95,7 @@ class ServerLog:
             WhitelistResult.NONE: 'There are no whitelisted players',
             WhitelistResult.NO_REMOVE: 'Player is not whitelisted',
             WhitelistResult.INVAL_MC_USER: 'That player does not exist',
+            WhitelistResult.DUP_ADD: 'Player is already whitelisted',
             WhitelistResult.LIST_OK: 'whitelisted players:'
         }
 

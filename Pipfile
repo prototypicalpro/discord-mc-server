@@ -14,6 +14,5 @@ pytest-timeout = "*"
 [packages]
 grpcio = "*"
 
-
 [requires]
 python_version = "3.8"

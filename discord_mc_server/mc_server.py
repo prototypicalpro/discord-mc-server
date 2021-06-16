@@ -9,20 +9,15 @@ from .server_log import ServerLog
 
 assert shutil.which('java')
 JAVA_PATH = Path(shutil.which('java'))
-JAVA_TUNE_ARGS = (
-    '-XX:+UseG1GC',
-    '-XX:+UnlockExperimentalVMOptions',
-    '-Xmx6144M',
-    '-Xms4096M',
-    '-jar'
-)
-SERVER_DIR = Path(f'{os.getcwd()}/server')
+JAVA_TUNE_ARGS = os.environ.get('JAVA_TUNE_ARGS', '').split(' ')
+SERVER_DIR = Path(os.environ.get('SERVER_DIR', os.getcwd()))
 # SERVER_JAR = SERVER_DIR.joinpath('forge-1.16.5-36.1.16.jar')
-SERVER_JAR = SERVER_DIR.joinpath('forge-1.16.5-36.1.16.jar')
-SERVER_ARGS = ('nogui')
+SERVER_JAR = SERVER_DIR.joinpath(os.environ.get(
+    'SERVER_JAR', 'forge-1.16.5-36.1.16.jar'))
+SERVER_ARGS = os.environ.get('SERVER_ARGS', '').split(' ')
 
 
-log = logging.getLogger('mc-server')
+log = logging.getLogger('main')
 
 
 class MCProcessError(RuntimeError):
@@ -34,6 +29,9 @@ class MCProcess(AsyncIterator):
         self.proc = proc
 
     async def next_line(self):
+        if self.proc.stdout.at_eof():
+            return None
+
         line = await self.proc.stdout.readline()
         strline = line.decode('utf8').rstrip()
         log.debug(strline)
@@ -41,7 +39,10 @@ class MCProcess(AsyncIterator):
         return ServerLog.from_log_line(strline)
 
     async def __anext__(self):
-        return await self.next_line()
+        line = await self.next_line()
+        if line is None:
+            raise StopAsyncIteration()
+        return line
 
     def write(self, command: str):
         log.debug(f'"{command.rstrip()}" --> server')
@@ -59,14 +60,13 @@ class MCProcess(AsyncIterator):
                     if log_msg.level == 'INFO' and 'done' in log_msg.msg.lower():
                         return
 
+        raise RuntimeError('stdout pipe closed unexpectedly!')
+
     async def stop(self):
         if self.proc.returncode is not None:
             return
 
         self.write('/stop\n')
-
-        async for _ in self.stdout:
-            pass
 
         await self.proc.wait()
 
@@ -74,7 +74,7 @@ class MCProcess(AsyncIterator):
     async def make_mcprocess() -> 'MCProcess':
         process = await asyncio.create_subprocess_exec(
             JAVA_PATH, *JAVA_TUNE_ARGS,
-            SERVER_JAR, *SERVER_ARGS,
+            '-jar', SERVER_JAR, *SERVER_ARGS,
             stdin=asyncio.subprocess.PIPE, stdout=asyncio.subprocess.PIPE,
             cwd=SERVER_DIR)
         log.info(f'Server PID: {process.pid}')
