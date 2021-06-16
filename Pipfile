@@ -13,6 +13,7 @@ pytest-timeout = "*"
 
 [packages]
 grpcio = "*"
+protobuf = "*"
 
 [requires]
 python_version = "3.8"
