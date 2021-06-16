@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x13mc-management.proto\x1a\x1fgoogle/protobuf/timestamp.proto\x1a\x1egoogle/protobuf/duration.proto\"h\n\x0bPlayerCount\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x14\n\x0cplayer_count\x18\x02 \x01(\r\x12\x14\n\x0cplayer_names\x18\x03 \x03(\t\"\x17\n\x15GetPlayerCountRequest\"8\n\x16GetPlayerCountResponse\x12\x1e\n\x08response\x18\x01 \x01(\x0b\x32\x0c.PlayerCount\"\x1d\n\x1bSubscribePlayerCountRequest\">\n\x1cSubscribePlayerCountResponse\x12\x1e\n\x08response\x18\x01 \x01(\x0b\x32\x0c.PlayerCount\"\xa7\x01\n\x16UpdateWhitelistRequest\x12=\n\x06\x61\x63tion\x18\x01 \x01(\x0e\x32-.UpdateWhitelistRequest.UpdateWhitelistAction\x12\x13\n\x0bplayer_name\x18\x02 \x01(\t\"9\n\x15UpdateWhitelistAction\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x07\n\x03\x41\x44\x44\x10\x01\x12\n\n\x06REMOVE\x10\x02\"[\n\x17UpdateWhitelistResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x11\n\twhitelist\x18\x02 \x03(\t\"\'\n\x10PlayerDeathEvent\x12\x13\n\x0bplayer_name\x18\x01 \x01(\t\"\x1d\n\x1bSubscribePlayerEventRequest\"\x80\x01\n\x1cSubscribePlayerEventResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12(\n\x0b\x64\x65\x61th_event\x18\x02 \x01(\x0b\x32\x11.PlayerDeathEventH\x00\x42\x07\n\x05\x65vent\"Z\n\x13ResourceConsumption\x12\x15\n\rcpu_usage_avg\x18\x02 \x01(\x02\x12\x15\n\rmem_usage_avg\x18\x03 \x01(\x02\x12\x15\n\rstorage_usage\x18\x04 \x01(\x02\"\x1f\n\x1dGetResourceConsumptionRequest\"w\n\x1eGetResourceConsumptionResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12&\n\x08response\x18\x02 \x01(\x0b\x32\x14.ResourceConsumption\"*\n(SubscribeResourceConsumptionEventRequest\"\xa6\x02\n(SubscribeResourceConsumptionEventReponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12J\n\x05\x65vent\x18\x02 \x01(\x0e\x32;.SubscribeResourceConsumptionEventReponse.ResourceEventType\x12&\n\x08response\x18\x03 \x01(\x0b\x32\x14.ResourceConsumption\"W\n\x11ResourceEventType\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0f\n\x0b\x43PU_TRIGGER\x10\x01\x12\x0f\n\x0bMEM_TRIGGER\x10\x02\x12\x13\n\x0fSTORAGE_TRIGGER\x10\x03\"^\n\x19SubscribeHeartbeatRequest\x12\x41\n\x1eheartbeat_duration_sec_atleast\x18\x01 \x01(\x0b\x32\x19.google.protobuf.Duration\"\xdd\x01\n\x1aSubscribeHeartbeatResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x38\n\x06status\x18\x02 \x01(\x0e\x32(.SubscribeHeartbeatResponse.SystemStatus\"V\n\x0cSystemStatus\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0b\n\x07\x42OOTING\x10\x01\x12\x0b\n\x07RUNNING\x10\x02\x12\x0f\n\x0bSIGNAL_STOP\x10\x03\x12\x0e\n\nFATAL_STOP\x10\x04\x32\xfc\x04\n\x0cMCManagement\x12\x43\n\x0eGetPlayerCount\x12\x16.GetPlayerCountRequest\x1a\x17.GetPlayerCountResponse\"\x00\x12W\n\x14SubscribePlayerCount\x12\x1c.SubscribePlayerCountRequest\x1a\x1d.SubscribePlayerCountResponse\"\x00\x30\x01\x12\x46\n\x0fUpdateWhitelist\x12\x17.UpdateWhitelistRequest\x1a\x18.UpdateWhitelistResponse\"\x00\x12W\n\x14SubscribePlayerEvent\x12\x1c.SubscribePlayerEventRequest\x1a\x1d.SubscribePlayerEventResponse\"\x00\x30\x01\x12[\n\x16GetResourceConsumption\x12\x1e.GetResourceConsumptionRequest\x1a\x1f.GetResourceConsumptionResponse\"\x00\x12}\n!SubscribeResourceConsumptionEvent\x12).SubscribeResourceConsumptionEventRequest\x1a).SubscribeResourceConsumptionEventReponse\"\x00\x30\x01\x12Q\n\x12SubscribeHeartbeat\x12\x1a.SubscribeHeartbeatRequest\x1a\x1b.SubscribeHeartbeatResponse\"\x00\x30\x01\x62\x06proto3'
+  serialized_pb=b'\n\x13mc-management.proto\x1a\x1fgoogle/protobuf/timestamp.proto\x1a\x1egoogle/protobuf/duration.proto\"h\n\x0bPlayerCount\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x14\n\x0cplayer_count\x18\x02 \x01(\r\x12\x14\n\x0cplayer_names\x18\x03 \x03(\t\"\x17\n\x15GetPlayerCountRequest\"8\n\x16GetPlayerCountResponse\x12\x1e\n\x08response\x18\x01 \x01(\x0b\x32\x0c.PlayerCount\"\x1d\n\x1bSubscribePlayerCountRequest\">\n\x1cSubscribePlayerCountResponse\x12\x1e\n\x08response\x18\x01 \x01(\x0b\x32\x0c.PlayerCount\"\xa7\x01\n\x16UpdateWhitelistRequest\x12=\n\x06\x61\x63tion\x18\x01 \x01(\x0e\x32-.UpdateWhitelistRequest.UpdateWhitelistAction\x12\x13\n\x0bplayer_name\x18\x02 \x01(\t\"9\n\x15UpdateWhitelistAction\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x07\n\x03\x41\x44\x44\x10\x01\x12\n\n\x06REMOVE\x10\x02\"\xc8\x02\n\x17UpdateWhitelistResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x10\n\x08response\x18\x02 \x01(\t\x12=\n\x0bresult_code\x18\x03 \x01(\x0e\x32(.UpdateWhitelistResponse.WhitelistResult\x12\x11\n\twhitelist\x18\x04 \x03(\t\"\x99\x01\n\x0fWhitelistResult\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0e\n\nINVAL_NAME\x10\x01\x12\x08\n\x04NONE\x10\x02\x12\r\n\tNO_REMOVE\x10\x03\x12\x11\n\rINVAL_MC_USER\x10\x04\x12\x0b\n\x07\x44UP_ADD\x10\x05\x12\x0b\n\x07LIST_OK\x10\x06\x12\n\n\x06\x41\x44\x44_OK\x10\x07\x12\n\n\x06REM_OK\x10\x08\x12\x0b\n\x07TIMEOUT\x10\t\"4\n\x10PlayerDeathEvent\x12\x13\n\x0bplayer_name\x18\x01 \x01(\t\x12\x0b\n\x03msg\x18\x02 \x01(\t\"\x1d\n\x1bSubscribePlayerEventRequest\"\x80\x01\n\x1cSubscribePlayerEventResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12(\n\x0b\x64\x65\x61th_event\x18\x02 \x01(\x0b\x32\x11.PlayerDeathEventH\x00\x42\x07\n\x05\x65vent\"Z\n\x13ResourceConsumption\x12\x15\n\rcpu_usage_avg\x18\x02 \x01(\x02\x12\x15\n\rmem_usage_avg\x18\x03 \x01(\x02\x12\x15\n\rstorage_usage\x18\x04 \x01(\x02\"\x1f\n\x1dGetResourceConsumptionRequest\"w\n\x1eGetResourceConsumptionResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12&\n\x08response\x18\x02 \x01(\x0b\x32\x14.ResourceConsumption\"*\n(SubscribeResourceConsumptionEventRequest\"\xa6\x02\n(SubscribeResourceConsumptionEventReponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12J\n\x05\x65vent\x18\x02 \x01(\x0e\x32;.SubscribeResourceConsumptionEventReponse.ResourceEventType\x12&\n\x08response\x18\x03 \x01(\x0b\x32\x14.ResourceConsumption\"W\n\x11ResourceEventType\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0f\n\x0b\x43PU_TRIGGER\x10\x01\x12\x0f\n\x0bMEM_TRIGGER\x10\x02\x12\x13\n\x0fSTORAGE_TRIGGER\x10\x03\"^\n\x19SubscribeHeartbeatRequest\x12\x41\n\x1eheartbeat_duration_sec_atleast\x18\x01 \x01(\x0b\x32\x19.google.protobuf.Duration\"\xdd\x01\n\x1aSubscribeHeartbeatResponse\x12-\n\ttimestamp\x18\x01 \x01(\x0b\x32\x1a.google.protobuf.Timestamp\x12\x38\n\x06status\x18\x02 \x01(\x0e\x32(.SubscribeHeartbeatResponse.SystemStatus\"V\n\x0cSystemStatus\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0b\n\x07\x42OOTING\x10\x01\x12\x0b\n\x07RUNNING\x10\x02\x12\x0f\n\x0bSIGNAL_STOP\x10\x03\x12\x0e\n\nFATAL_STOP\x10\x04\x32\xfc\x04\n\x0cMCManagement\x12\x43\n\x0eGetPlayerCount\x12\x16.GetPlayerCountRequest\x1a\x17.GetPlayerCountResponse\"\x00\x12W\n\x14SubscribePlayerCount\x12\x1c.SubscribePlayerCountRequest\x1a\x1d.SubscribePlayerCountResponse\"\x00\x30\x01\x12\x46\n\x0fUpdateWhitelist\x12\x17.UpdateWhitelistRequest\x1a\x18.UpdateWhitelistResponse\"\x00\x12W\n\x14SubscribePlayerEvent\x12\x1c.SubscribePlayerEventRequest\x1a\x1d.SubscribePlayerEventResponse\"\x00\x30\x01\x12[\n\x16GetResourceConsumption\x12\x1e.GetResourceConsumptionRequest\x1a\x1f.GetResourceConsumptionResponse\"\x00\x12}\n!SubscribeResourceConsumptionEvent\x12).SubscribeResourceConsumptionEventRequest\x1a).SubscribeResourceConsumptionEventReponse\"\x00\x30\x01\x12Q\n\x12SubscribeHeartbeat\x12\x1a.SubscribeHeartbeatRequest\x1a\x1b.SubscribeHeartbeatResponse\"\x00\x30\x01\x62\x06proto3'
   ,
   dependencies=[google_dot_protobuf_dot_timestamp__pb2.DESCRIPTOR,google_dot_protobuf_dot_duration__pb2.DESCRIPTOR,])
 
@@ -57,6 +57,71 @@ _UPDATEWHITELISTREQUEST_UPDATEWHITELISTACTION = _descriptor.EnumDescriptor(
 )
 _sym_db.RegisterEnumDescriptor(_UPDATEWHITELISTREQUEST_UPDATEWHITELISTACTION)
 
+_UPDATEWHITELISTRESPONSE_WHITELISTRESULT = _descriptor.EnumDescriptor(
+  name='WhitelistResult',
+  full_name='UpdateWhitelistResponse.WhitelistResult',
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='UNKNOWN', index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='INVAL_NAME', index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='NONE', index=2, number=2,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='NO_REMOVE', index=3, number=3,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='INVAL_MC_USER', index=4, number=4,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='DUP_ADD', index=5, number=5,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='LIST_OK', index=6, number=6,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ADD_OK', index=7, number=7,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='REM_OK', index=8, number=8,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='TIMEOUT', index=9, number=9,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=718,
+  serialized_end=871,
+)
+_sym_db.RegisterEnumDescriptor(_UPDATEWHITELISTRESPONSE_WHITELISTRESULT)
+
 _SUBSCRIBERESOURCECONSUMPTIONEVENTREPONSE_RESOURCEEVENTTYPE = _descriptor.EnumDescriptor(
   name='ResourceEventType',
   full_name='SubscribeResourceConsumptionEventReponse.ResourceEventType',
@@ -87,8 +152,8 @@ _SUBSCRIBERESOURCECONSUMPTIONEVENTREPONSE_RESOURCEEVENTTYPE = _descriptor.EnumDe
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1336,
-  serialized_end=1423,
+  serialized_start=1587,
+  serialized_end=1674,
 )
 _sym_db.RegisterEnumDescriptor(_SUBSCRIBERESOURCECONSUMPTIONEVENTREPONSE_RESOURCEEVENTTYPE)
 
@@ -127,8 +192,8 @@ _SUBSCRIBEHEARTBEATRESPONSE_SYSTEMSTATUS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1657,
-  serialized_end=1743,
+  serialized_start=1908,
+  serialized_end=1994,
 )
 _sym_db.RegisterEnumDescriptor(_SUBSCRIBEHEARTBEATRESPONSE_SYSTEMSTATUS)
 
@@ -349,8 +414,22 @@ _UPDATEWHITELISTRESPONSE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='whitelist', full_name='UpdateWhitelistResponse.whitelist', index=1,
-      number=2, type=9, cpp_type=9, label=3,
+      name='response', full_name='UpdateWhitelistResponse.response', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='result_code', full_name='UpdateWhitelistResponse.result_code', index=2,
+      number=3, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='whitelist', full_name='UpdateWhitelistResponse.whitelist', index=3,
+      number=4, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -360,6 +439,7 @@ _UPDATEWHITELISTRESPONSE = _descriptor.Descriptor(
   ],
   nested_types=[],
   enum_types=[
+    _UPDATEWHITELISTRESPONSE_WHITELISTRESULT,
   ],
   serialized_options=None,
   is_extendable=False,
@@ -367,8 +447,8 @@ _UPDATEWHITELISTRESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=542,
-  serialized_end=633,
+  serialized_start=543,
+  serialized_end=871,
 )
 
 
@@ -387,6 +467,13 @@ _PLAYERDEATHEVENT = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='msg', full_name='PlayerDeathEvent.msg', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
@@ -399,8 +486,8 @@ _PLAYERDEATHEVENT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=635,
-  serialized_end=674,
+  serialized_start=873,
+  serialized_end=925,
 )
 
 
@@ -424,8 +511,8 @@ _SUBSCRIBEPLAYEREVENTREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=676,
-  serialized_end=705,
+  serialized_start=927,
+  serialized_end=956,
 )
 
 
@@ -468,8 +555,8 @@ _SUBSCRIBEPLAYEREVENTRESPONSE = _descriptor.Descriptor(
       create_key=_descriptor._internal_create_key,
     fields=[]),
   ],
-  serialized_start=708,
-  serialized_end=836,
+  serialized_start=959,
+  serialized_end=1087,
 )
 
 
@@ -514,8 +601,8 @@ _RESOURCECONSUMPTION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=838,
-  serialized_end=928,
+  serialized_start=1089,
+  serialized_end=1179,
 )
 
 
@@ -539,8 +626,8 @@ _GETRESOURCECONSUMPTIONREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=930,
-  serialized_end=961,
+  serialized_start=1181,
+  serialized_end=1212,
 )
 
 
@@ -578,8 +665,8 @@ _GETRESOURCECONSUMPTIONRESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=963,
-  serialized_end=1082,
+  serialized_start=1214,
+  serialized_end=1333,
 )
 
 
@@ -603,8 +690,8 @@ _SUBSCRIBERESOURCECONSUMPTIONEVENTREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1084,
-  serialized_end=1126,
+  serialized_start=1335,
+  serialized_end=1377,
 )
 
 
@@ -650,8 +737,8 @@ _SUBSCRIBERESOURCECONSUMPTIONEVENTREPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1129,
-  serialized_end=1423,
+  serialized_start=1380,
+  serialized_end=1674,
 )
 
 
@@ -682,8 +769,8 @@ _SUBSCRIBEHEARTBEATREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1425,
-  serialized_end=1519,
+  serialized_start=1676,
+  serialized_end=1770,
 )
 
 
@@ -722,8 +809,8 @@ _SUBSCRIBEHEARTBEATRESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1522,
-  serialized_end=1743,
+  serialized_start=1773,
+  serialized_end=1994,
 )
 
 _PLAYERCOUNT.fields_by_name['timestamp'].message_type = google_dot_protobuf_dot_timestamp__pb2._TIMESTAMP
@@ -732,6 +819,8 @@ _SUBSCRIBEPLAYERCOUNTRESPONSE.fields_by_name['response'].message_type = _PLAYERC
 _UPDATEWHITELISTREQUEST.fields_by_name['action'].enum_type = _UPDATEWHITELISTREQUEST_UPDATEWHITELISTACTION
 _UPDATEWHITELISTREQUEST_UPDATEWHITELISTACTION.containing_type = _UPDATEWHITELISTREQUEST
 _UPDATEWHITELISTRESPONSE.fields_by_name['timestamp'].message_type = google_dot_protobuf_dot_timestamp__pb2._TIMESTAMP
+_UPDATEWHITELISTRESPONSE.fields_by_name['result_code'].enum_type = _UPDATEWHITELISTRESPONSE_WHITELISTRESULT
+_UPDATEWHITELISTRESPONSE_WHITELISTRESULT.containing_type = _UPDATEWHITELISTRESPONSE
 _SUBSCRIBEPLAYEREVENTRESPONSE.fields_by_name['timestamp'].message_type = google_dot_protobuf_dot_timestamp__pb2._TIMESTAMP
 _SUBSCRIBEPLAYEREVENTRESPONSE.fields_by_name['death_event'].message_type = _PLAYERDEATHEVENT
 _SUBSCRIBEPLAYEREVENTRESPONSE.oneofs_by_name['event'].fields.append(
@@ -894,8 +983,8 @@ _MCMANAGEMENT = _descriptor.ServiceDescriptor(
   index=0,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=1746,
-  serialized_end=2382,
+  serialized_start=1997,
+  serialized_end=2633,
   methods=[
   _descriptor.MethodDescriptor(
     name='GetPlayerCount',
