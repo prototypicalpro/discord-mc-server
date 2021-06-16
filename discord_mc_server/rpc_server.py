@@ -230,6 +230,9 @@ class MCManagementService(mc_management_pb2_grpc.MCManagementServicer):
                 list_log = ''
                 list_res = WhitelistResult.TIMEOUT
 
+            if list_res == WhitelistResult.NONE:
+                list_res = WhitelistResult.LIST_OK
+
             if list_res != WhitelistResult.LIST_OK:
                 context.set_code(StatusCode.INTERNAL)
                 context.set_details(
@@ -238,7 +241,6 @@ class MCManagementService(mc_management_pb2_grpc.MCManagementServicer):
 
             whitelist = list_log.msg.split(': ')[1].split(', ')
             stamp = Timestamp()
-            # TODO: fix
             if isinstance(log, ServerLog):
                 stamp.FromDatetime(log.time)
                 return mc_management_pb2.UpdateWhitelistResponse(
