@@ -65,6 +65,9 @@ class ServerLog:
                 and self.submodule == MC_SERVERLOG_SUBMODULE \
                 and self.msg.split(' ')[0] in all_playernames \
                 and 'completed the challenge' not in self.msg \
+                and 'achievement' not in self.msg \
+                and 'made the advancement' not in self.msg \
+                and 'has unlocked' not in self.msg \
                 and 'joined the game' not in self.msg \
                 and 'left the game' not in self.msg:
             return self.msg.split(' ')[0]
@@ -91,18 +94,18 @@ class ServerLog:
 
     def is_whitelist_response(self, player_name: Union[str, None] = None) -> Union[WhitelistResult, None]:
         whitelist_patterns = {
-            WhitelistResult.INVAL_NAME: 'Incorrect argument for command',
-            WhitelistResult.NONE: 'There are no whitelisted players',
-            WhitelistResult.NO_REMOVE: 'Player is not whitelisted',
-            WhitelistResult.INVAL_MC_USER: 'That player does not exist',
-            WhitelistResult.DUP_ADD: 'Player is already whitelisted',
+            WhitelistResult.INVAL_NAME: 'incorrect argument for command',
+            WhitelistResult.NONE: 'there are no whitelisted players',
+            WhitelistResult.NO_REMOVE: 'player is not whitelisted',
+            WhitelistResult.INVAL_MC_USER: 'that player does not exist',
+            WhitelistResult.DUP_ADD: 'player is already whitelisted',
             WhitelistResult.LIST_OK: 'whitelisted players:'
         }
 
         if player_name:
             whitelist_patterns.update({
-                WhitelistResult.ADD_OK: f'Added {player_name} to the whitelist',
-                WhitelistResult.REM_OK: f'Removed {player_name} from the whitelist',
+                WhitelistResult.ADD_OK: f'added {player_name.lower()} to the whitelist',
+                WhitelistResult.REM_OK: f'removed {player_name.lower()} from the whitelist',
             })
 
         if self.module == MC_MINECRAFT_MODULE \
@@ -110,6 +113,6 @@ class ServerLog:
                 and not self.msg.startswith('<'):
 
             for k, string in whitelist_patterns.items():
-                if string in self.msg:
+                if string in self.msg.lower():
                     return k
         return None

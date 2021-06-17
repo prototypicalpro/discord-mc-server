@@ -153,7 +153,6 @@ class MCManagementService(mc_management_pb2_grpc.MCManagementServicer):
 
     async def _listen_whitelist_response(self, queue: 'asyncio.Queue[ServerLog]', player_name: Union[str, None] = None) -> Tuple[WhitelistResult, ServerLog]:
         while True:
-            print('here')
             line = await queue.get()
 
             res = line.is_whitelist_response(player_name=player_name)

@@ -47,6 +47,18 @@ def test_is_player_death_doesnt_detect_death_if_not_online():
     assert not parsed.is_player_death([])
 
 
+def test_is_player_death_doesnt_detect_trinket_unlock():
+    line = '[18:23:40] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag has unlocked Dragon Breath trinket'
+    parsed = ServerLog.from_log_line(line)
+    assert not parsed.is_player_death(['BobTheScumbag'])
+
+
+def test_is_player_death_doesnt_detect_advancement():
+    line = '[03:26:06] [Server thread/INFO] [minecraft/DedicatedServer]: BobTheScumbag has made the advancement [Getting an Upgrade]'
+    parsed = ServerLog.from_log_line(line)
+    assert not parsed.is_player_death(['BobTheScumbag'])
+
+
 player_log = None
 with open(Path(__file__).parent.joinpath('assets/sample_player.log'), mode='r') as f:
     player_log = f.readlines()
