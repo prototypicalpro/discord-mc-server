@@ -197,13 +197,10 @@ class MCManagementService(mc_management_pb2_grpc.MCManagementServicer):
             return mc_management_pb2.UpdateWhitelistResponse()
 
         command = None
-        expected_result = None
         if request.action == mc_management_pb2.UpdateWhitelistRequest.UpdateWhitelistAction.ADD:
             command = '/whitelist add'
-            expected_result = WhitelistResult.ADD_OK
         elif request.action == mc_management_pb2.UpdateWhitelistRequest.UpdateWhitelistAction.REMOVE:
             command = '/whitelist remove'
-            expected_result = WhitelistResult.REM_OK
         else:
             context.set_code(StatusCode.OUT_OF_RANGE)
             context.set_details('invalid whitelist action!')

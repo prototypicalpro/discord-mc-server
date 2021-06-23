@@ -15,5 +15,4 @@ class PubSubQueue(Generic[WorkItem]):
         return queue
 
     async def publish(self, item: WorkItem):
-        for queue in self._listeners:
-            await queue.put(item)
+        await asyncio.gather(*[queue.put(item) for queue in self._listeners])
